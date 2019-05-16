@@ -1,0 +1,672 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="utf-8">
+		<link rel="shortcut icon" href="../images/favicon.png" type="image/png">
+        
+        <title>прайс - твой сервис</title>
+        
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">     
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.css">
+        <link rel="stylesheet" href=" ../stylesheets/main.css">
+        <script src=" ../scripts/price.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js?render=6LcyXYkUAAAAADvyjSiRS3lE_8Agvw9wpXQU5ffR'></script>
+        
+        
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary top">
+            <div class="container">
+              <a class="navbar-brand" href="/ru"> <img src=" ../images/logo.png" height="30em"> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/ru">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/ru/painting"> 
+                        Покраска
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/ru/to_and_repair" > 
+                        ТО и ремонт
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/ru/parts">Запасные части</a>
+                  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Прайс</a>
+					<div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
+						<a class="dropdown-item" href="/ru/price">стандартные автомобили 8-16 клапанов ЛАНОС ШЕВРОЛЕ GEELY</a>
+						<a class="dropdown-item active" href="/ru/price_bus">бусы и автомобили высшего уровня Фольксваген Ауди</a>
+					</div>
+				</li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        
+        <div class="bs-docs-section container main-content">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class=" btn-group-toggle btn-group-vertical" data-toggle="buttons">
+						<label class="btn btn-outline-primary source source-1" for="target-1">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Двигатель
+						</label>
+						<label class="btn btn-outline-primary source source-2" for="target-2">
+							<input type="radio" name="options" id="option1" autocomplete="off" > Топливная система
+						</label>
+						<label class="btn btn-outline-primary source source-3" for="target-3">
+							<input type="radio" name="options" id="option1" autocomplete="off" > Ходовая часть / Трансмиссия
+						</label>
+						<label class="btn btn-outline-primary source source-4" for="target-4">
+							<input type="radio" name="options" id="option1" autocomplete="off" > Технические жидкости
+						</label>
+						<label class="btn btn-outline-primary source source-5" for="target-5">
+							<input type="radio" name="options" id="option1" autocomplete="off" > Тормозная система
+						</label>
+						<label class="btn btn-outline-primary source source-6" for="target-6">
+							<input type="radio" name="options" id="option1" autocomplete="off" > Управление двигателем
+						</label>
+						<label class="btn btn-outline-primary source source-7" for="target-7">
+							<input type="radio" name="options" id="option1" autocomplete="off" > Электрическое оборудование
+						</label>
+						<label class="btn btn-outline-primary source source-8" for="target-8">
+							<input type="radio" name="options" id="option1" autocomplete="off" > Салон
+						</label>
+					</div>
+				</div>
+
+				<div class="col-lg-8 col-md-8 col-sm-12">
+					<div class="target target-1">
+						<h2> Двигатель</h2>
+						</br>
+
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Полное наименование</th>
+									<th scope="col">Цена</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Защита поддона картера двигателя. Снять / установить.</th>
+									<td>80</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена масла двигателя и масляного фильтра</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Снятие \ установка ГБЦ</th>
+									<td>от 3000/шт</td>
+								</tr>
+								<tr>
+									<th scope="row">Снятие \ установка ДВЗ</th>
+									<td>4800</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена прокладок выпускного коллектора</th>
+									<td>от 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена прокладок впускного коллектора</th>
+									<td>от 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Ремонт ГБЦ притирки клапанов + проверка</th>
+									<td>от 2400</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена ремня ГРМ с натяжными роликами ДИЗЕЛЬ</th>
+									<td>от 2500</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена ремня ГРМ с натяжными роликами 1,6 1,4 1,2 базоовая комплектация</th>
+									<td>от 800</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена ремня ГРМ с натяжными роликами 1,8 2,0 2,4 3 3,2 вез v8</th>
+									<td>от 1200</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена приводного ремня</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена прокладки клапанной крышки</th>
+									<td>от 200</td>
+								</tr>
+								<tr>
+									<th scope="row">Проверка зазоров клапанов с регулировкой</th>
+									<td>500</td>
+								</tr>
+								<tr>
+									<th scope="row">Ремонт ГБЦ и ДВС</th>
+									<td>от 20000</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена стартера перед объявлением стоимости ОБЗОР где находится</th>
+									<td>от 200</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена генератора</th>
+									<td>от 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена компрессора кондиционера без заправки</th>
+									<td>от 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена гидроусилителя</th>
+									<td>от 400</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена радиатора охлаждения с сливом охлаждающей жидкости с откручиванием защиты двс </th>
+									<td>от 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена радиатора кондиционера без заправки</th>
+									<td>от 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Замер компрессии двигателя</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Фильтр воздушный двигателя. Замена.</th>
+									<td>50</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-2 hidden">
+						<h2> Топливная система</h2>
+						</br>
+
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Полное наименование</th>
+									<th scope="col">Цена</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Снятие \ установка топливного бака</th>
+									<td>от 600</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена топливного насоса </th>
+									<td>от 600</td>
+								</tr>
+								<tr>
+									<th scope="row">Замер давления подачи топлива</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Фильтр топливный тонкой очистки внешней. Замена.</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Фильтр топливный (дизель). Замена.</th>
+									<td>200</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-3 hidden">
+						<h2> Ходовая часть / Трансмиссия</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Полное наименование</th>
+									<th scope="col">Цена</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Ходовая часть. Диагностирования.</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Стойка стабилизатора поперечной устойчивости переднего. Замена (2 шт)</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Стойка стабилизатора поперечной устойчивости заднего. Замена (2 шт)</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Втулка переднего стабилизатора поперечной устойчивости внутренняя \ внешняя. Замена (2 шт)</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Втулка заднего стабилизатора поперечной устойчивости внутренняя \ внешняя. Замена (2 шт)</th>
+									<td>200</td>
+								</tr>
+
+								<tr>
+									<th scope="row">Втулка переднего стабилизатора поперечной устойчивости внутренняя \ внешняя. ЗАМЕНА С ПРИПУСКАНИЕМ ПОДРАМНИКА</th>
+									<td>400</td>
+								</tr>
+								<tr>
+									<th scope="row">Наконечник тяги рулевой. Замена.</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена рулевой колонки</th>
+									<td>от 900</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена рулевой рейки</th>
+									<td>от 1800</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена рулевой тяги</th>
+									<td>200</td>
+								</tr>
+
+								<tr>
+									<th scope="row">Ремонт рулевой рейки</th>
+									<td>от 1200</td>
+								</tr>
+								<tr>
+									<th scope="row">Диагностика рулевой рейки</th>
+									<td>100</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена шаровой опоры при снятом рычаге</th>
+									<td>от 100</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена подшипника ступицы с переприсовкою</th>
+									<td>от 350</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена ступицы в сборе задней</th>
+									<td>от 300</td>
+								</tr> 
+
+								<tr>
+									<th scope="row">Замена опорного подшипника</th>
+									<td>от 300</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена поворотного кулака</th>
+									<td>от 500</td>
+								</tr> 
+								<tr>
+									<th scope="row">Снятие \ установка переднего моста</th>
+									<td>от 900</td>
+								</tr> 
+								<tr>
+									<th scope="row">Снятие \ установка заднего моста</th>
+									<td>от 800</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена рамы</th>
+									<td>от 29000</td>
+								</tr>
+								<tr>
+									<th scope="row">Снятие \ установка задней балки</th>
+									<td>от 1100</td>
+								</tr> 
+								<tr>
+									<th scope="row">Снятие \ установка рычага</th>
+									<td>300</td>
+								</tr> 
+								<tr>
+									<th scope="row">Снятие \ установка подрамника</th>
+									<td>от 800</td>
+								</tr> 
+								<tr>
+									<th scope="row">Перепрессовка сайлентблоков за 1 шт</th>
+									<td>от 80</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена сальника полуоси МКПП за 1 шт. снятие полуоси + проверка уровня масла в МКПП</th>
+									<td>400</td>
+								</tr> 
+
+								<tr>
+									<th scope="row">Замена сальника полуоси АКПП за 1 шт. снятие полуоси + проверка уровня масла в АКПП</th>
+									<td>400</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена шруса</th>
+									<td>350</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена задней пружины (балка)</th>
+									<td>250</td>
+								</tr> 
+								<tr>
+									<th scope="row">Снятие \ установка МКПП ЕСЛИ УСТАНОВЛЕНО ГБО ОТ 1200</th>
+									<td>от 1400</td>
+								</tr> 
+								<tr>
+									<th scope="row">Снятие \ установка АКПП ЕСЛИ УСТАНОВЛЕНО ГБО ОТ 1500</th>
+									<td>от 3000</td>
+								</tr> 
+								<tr>
+									<th scope="row">Ремонт МКПП ПО ФАКТУ СТОИМОСТЬ ЗА разборка СБОР И ДЕФФЕКТОВКУ и ремонт</th>
+									<td>от 2800</td>
+								</tr> 
+								<tr>
+									<th scope="row">Ремонт АКПП ПО ФАКТУ СТОИМОСТЬ ЗА разборка СБОР И ДЕФФЕКТОВКУ и ремонт</th>
+									<td>от 4900</td>
+								</tr> 
+								<tr>
+									<th scope="row">Амортизатор передний. Замена. + Разборка СБОР</th>
+									<td>450</td>
+								</tr> 
+								<tr>
+									<th scope="row">Опора амортизатора переднего. Замена.</th>
+									<td>450</td>
+								</tr> 
+								<tr>
+									<th scope="row">Амортизатор задний. Замена. СТОЙКА</th>
+									<td>450</td>
+								</tr> 
+
+								<tr>
+									<th scope="row">Амортизатор задний замена на 2-х болтах не устойчива !!! Замена комплекта</th>
+									<td>300</td>
+								</tr> 
+								<tr>
+									<th scope="row">Опора амортизатора заднего. Замена.</th>
+									<td>450</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена рессор</th>
+									<td>от 1600</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена карданного вала</th>
+									<td>от 300</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена подушки ДВС</th>
+									<td>от 350</td>
+								</tr> 
+								<tr>
+									<th scope="row">Защита картера МКПП / АКПП. Снять / установить.</th>
+									<td>50</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена масла МКПП для снятия установлением защиты МКПП</th>
+									<td>150</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена масла АКПП с фильтром АКПП</th>
+									<td>от 400</td>
+								</tr> 
+								<tr>
+									<th scope="row">Замена масла АКПП БЕЗ ФИЛЬТРА АКПП</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Смазка переднего моста. Замена.</th>
+									<td>80</td>
+								</tr> 
+								<tr>
+									<th scope="row">Смазка заднего моста. Замена.</th>
+									<td>80</td>
+								</tr> 
+								<tr>
+									<th scope="row">Смазка коробки раздаточной. Замена.</th>
+									<td>80</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-4 hidden">
+						<h2> Технические жидкости</h2>
+						</br>
+
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Полное наименование</th>
+									<th scope="col">Цена</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Жидкости технические. Проверка уровней, диагностирования</th>
+									<td>50</td>
+								</tr>
+								<tr>
+									<th scope="row">Жидкость гидроусилителя руля. Замена.</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Жидкость охлаждения двигателя. Замена.</th>
+									<td>200</td>
+								</tr> 
+								<tr>
+									<th scope="row">Жидкость тормозная. Замена с прокачкой</th>
+									<td>180</td>
+								</tr>
+								<tr>
+									<th scope="row">Система тормозная. Прокачать.</th>
+									<td>100</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-5 hidden">
+						<h2> Тормозная система</h2>
+						</br>
+
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Полное наименование</th>
+									<th scope="col">Цена</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Диагностика тормозной системы</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Колодки тормозные передние (диск) Замена.</th>
+									<td>160</td>
+								</tr>
+								<tr>
+									<th scope="row">Колодки тормозные задние (диск) Замена.</th>
+									<td>400</td>
+								</tr>
+								<tr>
+									<th scope="row">Колодки тормозные передние (барабан) Замена.</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Колодки тормозные задние (барабан) Замена.</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Диск тормозной передний оба. Замена.</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Диск тормозной задний оба. Замена.</th>
+									<td>400</td>
+								</tr>
+								<tr>
+									<th scope="row">Барабан тормозной передний оба. Замена.</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Барабан тормозной задний оба. Замена.</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена суппорта с прокачкой</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Смазка направляющих суппорта по 2 шт.</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена шланга тормозного с прокачкой</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена блока АБС</th>
+									<td>от 600</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена датчика АБС</th>
+									<td>от 250</td>
+								</tr>
+								<tr>
+									<th scope="row">Замена троса ручника</th>
+									<td>от 600</td>
+								</tr>
+								<tr>
+									<th scope="row">Тормоз стояночный. Диагностика, регулировка.</th>
+									<td>100</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-6 hidden">
+						<h2> Управление двигателем</h2>
+						</br>
+
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Полное наименование</th>
+									<th scope="col">Цена</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Диагностика электрооборудования.</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Сканирование автомобиля</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Свеча зажигания (провода высоковольтные). Замена 4 шт.</th>
+									<td>300</td>
+								</tr> 
+								<tr>
+									<th scope="row">Свеча зажигания (катушки). Замена 4 шт.</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row"> Катушка зажигания (все). Замена.</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Проволока высоковольтный (все). Замена</th>
+									<td>80</td>
+								</tr>
+								<tr>
+									<th scope="row"> Форсунка инжектора (4 шт.) Снять / установить, прочистка на стенде.</th>
+									<td>от 990</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-7 hidden">
+						<h2> Электрическое оборудование</h2>
+						</br>
+
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Полное наименование</th>
+									<th scope="col">Цена</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Батарея аккумуляторная. Диагностика.</th>
+									<td>50</td>
+								</tr>
+								<tr>
+									<th scope="row">Батарея аккумуляторная. Замена.</th>
+									<td>от 300</td>
+								</tr> 
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-8 hidden">
+						<h2>Салон</h2>
+						</br>
+
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Полное наименование</th>
+									<th scope="col">Цена</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Карта двери снятия установки</th>
+									<td>200</td>
+								</tr> 
+								<tr>
+									<th scope="row">Регулировка замка со снятой картой</th>
+									<td>100</td>
+								</tr> 
+
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<br/>
+		<footer>
+             <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>
+                                <a href="https://www.instagram.com/tviiservis/">
+                                	<img src=" ../images/instagram.svg" height="20em" > 
+                                </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+	</body>
+</html>

@@ -1,0 +1,664 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta charset="utf-8">
+		<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+        
+        <title>прайс - твій сервіс</title>
+        
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">     
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.css">
+        <link rel="stylesheet" href=" stylesheets/main.css">
+		<script src="scripts/price.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>        
+        
+    </head>
+    
+    <body>
+		        <nav class="navbar navbar-expand-lg navbar-dark bg-primary top">
+            <div class="container">
+              <a class="navbar-brand" href="/"> <img src=" images/logo.png" height="30em"> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Головна</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/painting"> 
+                        Фарбування
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/to_and_repair" > 
+                        ТО і ремонт
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/parts">Запасні частини</a>
+                  </li>
+                  <li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Прайс</a>
+					<div class="dropdown-menu active" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
+						<a class="dropdown-item active" href="/price">стандартнi автомобілі 8-16 клапанів ЛАНОС ШЕВРОЛЕ GEELY</a>
+						<a class="dropdown-item" href="/price_bus">буси і автомобілі вищого рівня Фольцваген Ауді</a>
+					</div>
+				</li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+		<div class="bs-docs-section container main-content">
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class=" btn-group-toggle btn-group-vertical" data-toggle="buttons">
+						<label class="btn btn-outline-primary source source-1" for="target-1">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Двигун
+						</label>
+						<label class="btn btn-outline-primary source source-2" for="target-2">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Паливна система
+						</label>
+						<label class="btn btn-outline-primary source source-3" for="target-3">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Ходова частина / Трансмісія
+						</label>
+						<label class="btn btn-outline-primary source source-4" for="target-4">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Технчіні рідини
+						</label>
+						<label class="btn btn-outline-primary source source-5" for="target-5">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Гальмівна система
+						</label>
+						<label class="btn btn-outline-primary source source-6" for="target-6">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Керування двигуном
+						</label>
+						<label class="btn btn-outline-primary source source-7" for="target-7">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Електричне обладнaння
+						</label>
+						<label class="btn btn-outline-primary source source-8" for="target-8">
+							<input type="radio" name="options" id="option1" autocomplete="off" checked=""> Салон
+						</label>
+					</div>
+
+				</div>
+
+				<div class="col-lg-8 col-md-8 col-sm-12">
+					<div class="target target-1">
+						<h2> Двигун</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Повне найменування</th>
+									<th scope="col">Ціна</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Захист піддону картера двигуна. Зняти/встановити.</th>
+									<td>50</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна мастила двигуна та масляного фільтру</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення ГБЦ</th>
+									<td>вiд 3000</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення ДВЗ</th>
+									<td>вiд 3500</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна прокладок випускного колектору</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна прокладок впускного колектору</th>
+									<td>450</td>
+								</tr>
+								<tr>
+									<th scope="row">Ремонт ГБЦ притирання клапанів + перевірка</th>
+									<td>вiд 2400</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна ремня ГРМ з натяжними роликами ДИЗЕЛЬ </th>
+									<td>вiд 2500</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна ремня ГРМ з натяжними роликами 1,6 1,4 1,2 базова комплектація </th>
+									<td>вiд 800</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна ремня ГРМ з натяжними роликами 1,8 2,0 2,4 3 3,2 вез v8 </th>
+									<td>вiд 1200</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна приводного ремня</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна прокладки клапанної кришки</th>
+									<td>150</td>
+								</tr>
+								<tr>
+									<th scope="row">Перевірка зазорів клапанів з регулюванням</th>
+									<td> 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Ремонт ГБЦ та ДВЗ</th>
+									<td>вiд 15000</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна стартера перед оголошенням вартості ОГЛЯД де знаходиться</th>
+									<td>вiд 200</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна генератора</th>
+									<td>вiд 300</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна компресора кондиціонера без заправки</th>
+									<td>вiд 400</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна гідропідсилювача</th>
+									<td>вiд 300</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна радіатора охолодження з зливанням охолоджуючої рідини з відкручуванням захисту двс</th>
+									<td>вiд 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна радіатора кондиціонера без заправки</th>
+									<td>вiд 400</td>
+								</tr>
+								<tr>
+									<th scope="row">Замір компресії двигуна</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Фільтр повітряний двигуна. Заміна.</th>
+									<td>40</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-2 hidden">
+						<h2> Паливна система</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Повне найменування</th>
+									<th scope="col">Ціна</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Зняття \ встановлення паливного баку</th>
+									<td>вiд 500</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна паливного насосу</th>
+									<td>вiд 400</td>
+								</tr>
+								<tr>
+									<th scope="row">Замір тиску подачі палива </th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Фільтр паливний тонкої очистки зовнішній. Заміна.</th>
+									<td>90</td>
+								</tr>
+								<tr>
+									<th scope="row">Фільтр паливний (дизель). Заміна.</th>
+									<td>200</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-3 hidden">
+						<h2> Ходова частина / Трансмісія</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Повне найменування</th>
+									<th scope="col">Ціна</th>
+								</tr>
+							</thead>
+							<tbody>
+																<tr>
+									<th scope="row">Ходова частина. Діагностування.</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Стійка стабілізатора поперечної стійкості переднього. Заміна (2 шт)</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Стійка стабілізатора поперечної стійкості заднього. Заміна (2 шт)</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Втулка переднього стабілізатора поперечної стійкості внутрішня\зовнішня. Заміна (2 шт)</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Втулка заднього стабілізатора поперечної стійкості внутрішня\зовнішня. Заміна (2 шт)</th>
+									<td>200</td>
+								</tr>
+
+								<tr>
+									<th scope="row">Втулка переднього стабілізатора поперечної стійкості внутрішня\зовнішня. ЗАМІНА З ПРИСПУСКАННЯМ ПІДРАМНИКА</th>
+									<td>400</td>
+								</tr>
+								<tr>
+									<th scope="row">Наконечник тяги рульової. Заміна.</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна рульової колонки</th>
+									<td>вiд 700</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна рульової рейки</th>
+									<td>вiд 900</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна рульової тяги</th>
+									<td>200</td>
+								</tr>
+
+								<tr>
+									<th scope="row">Ремонт рульової рейки</th>
+									<td>вiд 850</td>
+								</tr>
+								<tr>
+									<th scope="row">Діагностика рульової рейки</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна шарової опори при знятому важелі</th>
+									<td>вiд 100</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна підшипника ступиці з переприсовкою</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна ступиці в зборі задньої</th>
+									<td>0</td>
+								</tr>
+
+								<tr>
+									<th scope="row">Заміна опорного підшипника</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна поворотного кулака</th>
+									<td>вiд 300</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення переднього моста</th>
+									<td>0</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення заднього моста</th>
+									<td>0</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна рами</th>
+									<td>0</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення задньої балки</th>
+									<td>вiд 900</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення ричага</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення підрамника</th>
+									<td>800</td>
+								</tr>
+								<tr>
+									<th scope="row">Перепресовка сайлентблоків за 1 шт.</th>
+									<td>вiд 80</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна сальника піввісі МКПП за 1 шт. зняття напіввісі + перевірка рівня масла в МКПП</th>
+									<td>400</td>
+								</tr>
+
+								<tr>
+									<th scope="row">Заміна сальника піввісі АКПП за 1 шт. зняття напіввісі + перевірка рівня масла в АКПП</th>
+									<td>400</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна шрусу</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна задньої пружини (балка)</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення МКПП ЯКЩО ВСТАНОВЛЕНО ГБО ВІД 1200</th>
+									<td>вiд 1000</td>
+								</tr>
+								<tr>
+									<th scope="row">Зняття\встановлення АКПП ЯКЩО ВСТАНОВЛЕНО ГБО ВІД 1500</th>
+									<td>вiд 2000</td>
+								</tr>
+								<tr>
+									<th scope="row">Ремонт МКПП ПО ФАКТУ ВАРТІСТЬ ЗА РОЗБИРАННЯ ЗБИРАННЯ І ДЕФФЕКТОВКУ і ремонт</th>
+									<td>вiд 1700</td>
+								</tr>
+								<tr>
+									<th scope="row">Ремонт АКПП ПО ФАКТУ ВАРТІСТЬ ЗА РОЗБИРАННЯ ЗБИРАННЯ І ДЕФФЕКТОВКУ і ремонт</th>
+									<td>вiд 4100</td>
+								</tr>
+								<tr>
+									<th scope="row">Амортизатор передній. Заміна. + РОЗБИРАННЯ ЗБИРАННЯ</th>
+									<td>350</td>
+								</tr>
+								<tr>
+									<th scope="row">Опора амортизатора переднього. Заміна.</th>
+									<td>350</td>
+								</tr>
+								<tr>
+									<th scope="row">Амортизатор задній. Заміна. СТІЙКА</th>
+									<td>350</td>
+								</tr>
+
+								<tr>
+									<th scope="row">Амортизатор задній заміна на 2-х болтах НЕ СТІЙКА !!! ЗАМІНА КОМПЛЕКТА</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Опора амортизатора заднього. Заміна.</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна рессори</th>
+									<td>400</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна карданого валу</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна подушки ДВЗ</th>
+									<td>вiд 200</td>
+								</tr>
+								<tr>
+									<th scope="row">Захист картера МКПП/АКПП. Зняти/встановити.</th>
+									<td>50</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна мастила МКПП з зняття встановленням захисту МКПП</th>
+									<td>150</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна мастила АКПП з фільтром АКПП</th>
+									<td>вiд 400</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна мастила АКПП БЕЗ ФІЛЬТРА АКПП</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Мастило переднього моста. Заміна.</th>
+									<td>80</td>
+								</tr>
+								<tr>
+									<th scope="row">Мастило заднього моста. Заміна.</th>
+									<td>80</td>
+								</tr>
+								<tr>
+									<th scope="row">Мастило коробки роздаточної. Заміна.</th>
+									<td>80</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-4 hidden">
+						<h2> Технчіні рідини</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Повне найменування</th>
+									<th scope="col">Ціна</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Рідини технічні. Перевірка рівнів, діагностування</th>
+									<td>50</td>
+								</tr>
+								<tr>
+									<th scope="row">Рідина гідропідсилювача керма. Заміна.</th>
+									<td>150</td>
+								</tr>
+								<tr>
+									<th scope="row">Рідина охолодження двигуна. Заміна.</th>
+									<td>180</td>
+								</tr>
+								<tr>
+									<th scope="row">Рідина гальмівна. Заміна з прокачкою</th>
+									<td>180</td>
+								</tr>
+								<tr>
+									<th scope="row">Система гальмівна. Прокачати.</th>
+									<td>100</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-5 hidden">
+						<h2> Гальмівна система</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Повне найменування</th>
+									<th scope="col">Ціна</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Діагностика гальмівної системи</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Колодки гальмівні передні (диск) Заміна.</th>
+									<td>130</td>
+								</tr>
+								<tr>
+									<th scope="row">Колодки гальмівні задні (диск) Заміна.</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Колодки гальмівні передні (барабан) Заміна.</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Колодки гальмівні задні (барабан) Заміна.</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Диск гальмівний передній обидва. Заміна.</th>
+									<td>300</td>
+								</tr>
+								<tr>
+									<th scope="row">Диск гальмівний задній обидва. Заміна.</th>
+									<td>400</td>
+								</tr>
+								<tr>
+									<th scope="row">Барабан гальмівний передній обидва. Заміна.</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Барабан гальмівний задній обидва. Заміна.</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна суппорта з прокачкою</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Змащування направляючих суппорта за 2 шт.</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна шлангу гальмівного з прокачкою</th>
+									<td>200</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна блока АБС</th>
+									<td>вiд 400</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна датчика АБС</th>
+									<td>вiд 180</td>
+								</tr>
+								<tr>
+									<th scope="row">Заміна тросу ручника</th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Гальмо стояночне. Діагностика, регулювання.</th>
+									<td>100</td>
+								</tr>
+
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-6 hidden">
+						<h2> Керування двигуном</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Повне найменування</th>
+									<th scope="col">Ціна</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Діагностика електрообладнання. </th>
+									<td>250</td>
+								</tr>
+								<tr>
+									<th scope="row">Сканування автомобіля</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Свічка запалювання (дроти високовольтні). Заміна 4 шт.</th>
+									<td>150</td>
+								</tr>
+								<tr>
+									<th scope="row">Свічка запалювання (котушки). Заміна 4 шт.</th>
+									<td>150</td>
+								</tr>
+								<tr>
+									<th scope="row">Котушка запалювання (всі). Заміна.</th>
+									<td>100</td>
+								</tr>
+								<tr>
+									<th scope="row">Дріт високовольтний (всі). Заміна.</th>
+									<td>60</td>
+								</tr>
+								<tr>
+									<th scope="row">Форсунка інжектора (4 шт.) Зняти/встановити, прочистка на стенді. </th>
+									<td>вiд 700</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-7 hidden">
+						<h2> Електричне обладнaння</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Повне найменування</th>
+									<th scope="col">Ціна</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Батарея акумуляторна. Діагностика.</th>
+									<td>50</td>
+								</tr>
+								<tr>
+									<th scope="row">Батарея акумуляторна. Заміна.</th>
+									<td>50</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="target target-8 hidden">
+						<h2> Салон</h2>
+						</br>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Повне найменування</th>
+									<th scope="col">Ціна</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Карта двері зняття встановлення</th>
+									<td>150</td>
+								</tr>
+								<tr>
+									<th scope="row">Регулювання замка зі знятою картою</th>
+									<td>50</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<br/>
+		
+		<footer>
+             <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p>
+                                <a href="https://www.instagram.com/tviiservis/">
+                                	<img src=" ../images/instagram.svg" height="20em" > 
+                                </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+	</body>
+</html>
